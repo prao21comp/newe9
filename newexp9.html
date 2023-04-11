@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="stylesheet" href="{{url_for('static', filename='hi/style.css')}}">
+
+    <style>
+         a:hover {
+  color: hotpink;
+     }
+
+     h2::first-line {
+  color: #002aff;
+  font-variant: small-caps;
+}
+
+#hey {
+  text-align: center;
+  color: rgb(255, 0, 119);
+}
+
+
+div.absolute {
+  position: absolute;
+  top: 210px;
+  left: 50px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #b93266;
+}
+div.absolute1 {
+  position: absolute;
+  top: 210px;
+  right: 50px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #b93266;
+}
+div.absolute2 {
+  position: absolute;
+  top: 210px;
+  right: 300px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #b93266;
+}
+div.absolute3 {
+  position: absolute;
+  top: 210px;
+  left: 300px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #b93266;
+}
+img {
+  margin: 10px;
+  border: 4px solid #824caf;
+}
+div.heyy {
+  padding: 20px;
+  border: 4px solid #052142;
+}
+ol.a {list-style-type: lower-roman;}
+.navbar {
+  overflow: hidden;
+ }
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color:black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    </style>
+</head>
+<!--<frameset cols = "30%, 40%, 30%">
+    <frame name = "left" src="image/logo.png" />
+    <frame name = "center" src = 
+    "image/logo2.png" />
+    <frame name = "right" src = 
+    "image/logo3.png" />        
+    <noframes> -->
+<body>
+ <nav>
+ <img src="image/logo.png" alt="This is an image" width="50"> 
+ <div class="navbar">
+  <div class="dropdown">
+ <button class="dropbtn">Login
+       <i class="fa fa-caret-down"></i>
+     </button>
+     <div class="dropdown-content">
+       <a href="#">Sign in</a>
+       <a href="#">Register</a>
+   </div>
+ </div>
+   <div class="dropdown">
+     <button class="dropbtn">Career Blog
+       <i class="fa fa-caret-down"></i>
+     </button>
+     <div class="dropdown-content">
+       <a href="#">Job Search</a>
+       <a href="#">Job Interviews</a>
+       <a href="#">Career Advice</a>
+ </div>
+ </div>
+   <div class="dropdown">
+ <button class="dropbtn">Resume
+       <i class="fa fa-caret-down"></i>
+     </button>
+     <div class="dropdown-content">
+       <a href="#">Resume Format</a>
+       <a href="#">Resume Examples</a>
+       <a href="#">Resume Templates</a>
+       <a href="#">How to write a Resume </a>
+       <a href="#"> Resume Checker </a>
+       <a href="#">Resume Help</a>
+ </div>
+ </div>
+ <div class="dropdown">
+ <button class="dropbtn">About Us
+       <i class="fa fa-caret-down"></i>
+     </button>
+     <div class="dropdown-content">
+       <a href="#">Resume Format</a>
+  </div>
+ </div>
+  <div class="dropdown">
+ <button class="dropbtn">Cover Letter
+       <i class="fa fa-caret-down"></i>
+     </button>
+     <div class="dropdown-content">
+       <a href="#">Cover Letter Format</a>
+       <a href="#">Cover Letter Examples</a>
+       <a href="#">How to write a Cover Letter </a>
+       <a href="#">Cover Letter Help</a>
+     </div>
+     </div>
+   </div>
+   <hr>
+  </nav>
+<center>
+<h1><u>ABOUT US</u><h1>
+    <img src="image/logo2.png" usemap="#sai" alt="" height=95 width=350/>
+<map name="sai">
+<area href="index.html" shape="rect" coords="2,5,347,89" alt=""/>
+</map>
+<form>
+  <div class="absolute">
+  <input  type="button" value="Amazon">
+  <input  type="button" value="Spotify">
+  <input  type="button" value="Instagram">
+</div>
+</form>
+<form>
+  <div class="absolute1">
+  <input  type="button" value="google">
+  <input  type="button" value="TechQuest">
+  <input  type="button" value="Microsoft">
+</div>
+</form>
+<form>
+  <div class="absolute2">
+  <input  type="button" value="symantec">
+  <input  type="button" value="Apple">
+  <input  type="button" value="Adobe Systems">
+</div>
+</form>
+<form>
+  <div class="absolute3">
+  <input  type="button" value="WhatsApp">
+  <input  type="button" value="Fasebook">
+  <input  type="button" value="CodeBright">
+</div>
+</form>
+<br>
+<hr>
+<!--<form >
+  <div class="heyy">
+  <input  type="button" value="GO TO HOMEPAGE">
+  <input  type="button" value="START MAKING YOUR RESUME">
+  <input  type="button" value="KNOW MORE ABOUT US">
+  <input  type="button" value="TO REGISTER CLICK HERE">
+</div>
+</form>-->
+<table style="width:100%">
+    <th >
+      <td font style="font-size:x-large;" font style="width: fix content;"> GO2JOB resume templates and builders are provided which is a good idea, as they not only help you craft a visually pleasing design, but they give you content tips and suggestions, too. They're also very straightforward to use, and oftentimes, customizable.<br>GO2JOB is a free builder makes creating a professional resume easy.<br> Our recruiter-approved resume examples and templates are tailored to the job you want. <br>And our expert writing tips make customizing your resume quick.<br>Getting a job today requires job seekers to show their value to employers with stand-out resumes customized for each job.<br> GO2JOB’s Resume Builder, and expert resume help make it easy to do just that in only 15 minutes!<br>You can also avail the facility of COVER LETTER to send to a company where the format is given by our website the user just needs to fill the content.Also for the content we show the suggestions the user can use them if required.</td> 
+    </th>
+  
+    <th>
+      <td><img src="image/AMU IMG07.png"  alt="" height=450 width=350/></td>
+    </th>
+</table>
+<hr>
+<div class="hi">
+<br>
+<marquee  direction="left" >
+  <table>
+  <tr>
+  <td> 
+    <img src="image/au img02.jpg" width="220" height= "200"> </td>
+    <td> 
+  <img src="image/amu img04.jpg" width="220" height= "200"> </td>
+<td> 
+  <img src="image/amu img06.jpg" width="220" height= "200"> </td>
+<td> 
+  <img src="image/amu img05.jpg" width="220" height= "200" > </td>
+  <td> 
+  <img src="image/au imgo3.jpg" width="220" height= "200"> </td>
+</tr>
+</table>
+</marquee>
+<br>
+</div>
+<hr>
+<table style="width:100%">
+  <th >
+    <td > <img src="image/amu img08.jfif" width="510" height= "400" >
+    </td> 
+  </th>
+
+  <th>
+    <td font style="font-size:x-large;">
+      <h3>HOW TO CREATE A CUSTOM RESUME</h3>
+    <ol class="a">
+      <li>Choose your resume template.</li>
+      <li>Customize your resume by filling the details asked.</li>
+      <li>Format it,download it,and send it.</li>
+      <li>If required take expert help that is provided</li>
+    </ol>
+      
+    </td>
+  </th>
+</table>
+<hr>
+<div class="hi">
+<table style="width:100%">
+  <th >
+    <td font style="font-size:medium;" font style="width: fix content;">
+      <h2>FREQUENTLY ASKED QUESTIONS ABOUT US</h2>
+      <div> 
+      <details open>
+        <summary>What is GO2JOB?</summary>
+        <p>GO2JOB is a career website focused on the jobseeker’s journey. We share expert knowledge, tips, and tools to help everyone find their dream job. <br></p>
+      </details>
+      <details open>
+        <summary>What are GO2JOB's goals?</summary>
+        <P>GO2JOB aims to make applying for a job fast and easy, for everyone. We believe that seasoned professionals and inexperienced candidates alike should be able to apply for any job they want, without being limited by their resume-making skills. We are committed to helping you every step along the way to your dream career.</P>
+      </details>
+      <details open>
+        <summary>How does GO2JOB work? How do I use it?</summary>
+        <P>GO2JOB is convenient, fast, and easy to use. All you need to do is to pick a template, fill in the basic contact information, and input your job title. Our smart builder will then generate content tailored to your profile and experience, that you can then adjust to your needs. Start now and be done in a few minutes: <mark> Try our Resume Builder.</mark></P>
+      </div>
+    </details>    
+    </td> 
+  </th>
+  <th>
+    <td><img src="image/amu img09.jpg"  alt="" height=450 width=500/></td>
+  </th>
+</table>
+</div>
+<hr>
+<div class="relative">
+ <!--<form>
+   <font style="font-size: medium;">
+  <input type=color name=cn list=cname>
+<datalist id="cname">
+</datalist>
+
+ <h2>FEEDBACK!!</h2>
+  
+  <h4>GIVE YOUR FEEDBACK HERE...</h4>
+  <p>ENTER HERE: <input type="text" name="name"></p>
+  <fieldset>
+    <legend>BUSY TO FILL THE FORM SO..</legend>
+     <p>
+        REMIND ME LATER <input type="radio" name="" id="">
+        FILL THE FORM RN<input type="radio" name="" id="">
+        NOT AT ALL <input type="radio" name="" id="">
+    </p>
+</fieldset>
+<input  type="submit" value="SUBMIT">
+</font>
+</form>
+</div> 
+
+<hr>
+--> 
+<iframe src="abu2O.html" title="GO TO HOMEPAGE" height="200" width="300" style="border:1px solid black;">
+</iframe> 
+<br>
+<div class="sticky">
+<p>FOR MORE INFORMATION GO TO <a href="https://www.google.com" target="_blank ">GOOGLE</a></p>
+</div>
+<hr>
+<br>
+<img src="image/th03.jfif" alt="This is an image" width="400">
+<br>
+<a href="mp.html"><button class="button"  id="hey">Back</button>
+</a>
+</p>
+</center>
+</body>
+<!-- </noframes>
+</frameset> -->
+</html>  
+</html>
